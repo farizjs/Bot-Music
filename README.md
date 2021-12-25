@@ -52,3 +52,6 @@ $ sudo su
 # nano .env # fill it with your env 
 # python3 main.py
 ```
+
+# Credits ©
+* [Abdul](https://github.com/DoellBarr/solidmusic) - Solid Music
