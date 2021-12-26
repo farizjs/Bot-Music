@@ -52,7 +52,7 @@ class TelegramPlayer(Call):
                 ],
             ],
         ),
-    )
+    ),
 
             )
         except NoActiveGroupCall:
@@ -109,7 +109,7 @@ class TelegramPlayer(Call):
                 ],
             ],
         ),
-    )
+    ),
 
             )
         except NoActiveGroupCall:
