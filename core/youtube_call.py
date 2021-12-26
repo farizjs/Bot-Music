@@ -110,15 +110,7 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
 """,
-        InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("Support", "t.me/FlicksSupport"),
-                    InlineKeyboardButton("Channel", "t.me/BotMusicUpdates"),
-                ],
-            ],
-        ),
-    ),
+                disable_web_page_preview=False,
             )
         except NoActiveGroupCall:
             await self.join_chat(chat_id)
