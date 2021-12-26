@@ -5,6 +5,7 @@ import wget
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
+from configs import config
 
 def bytes(size: float) -> str:
     """humanize size"""
