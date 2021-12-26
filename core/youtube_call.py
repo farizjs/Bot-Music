@@ -3,6 +3,7 @@ from asyncio import sleep
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import CallbackQuery, Message
 from pytgcalls import StreamType
+from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls.exceptions import NoActiveGroupCall
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 
