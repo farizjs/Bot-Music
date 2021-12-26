@@ -61,7 +61,6 @@ class YoutubePlayer(Call):
         ),
     )
 
-                disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
             await self.join_chat(chat_id)
@@ -128,7 +127,6 @@ class YoutubePlayer(Call):
             ],
         ),
     )
-                disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
             await self.join_chat(chat_id)
