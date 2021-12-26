@@ -52,17 +52,6 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
 """,
-        [
-            [
-                InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"config.GROUP_LINK"
-                ),
-                InlineKeyboardButton(
-                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"config.CHANNEL_LINK"
-                ),
-            ],
-        ],
-    ),
                 disable_web_page_preview=True,
 
             )
@@ -122,17 +111,6 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
 """,
-        [
-            [
-                InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"config.GROUP_LINK"
-                ),
-                InlineKeyboardButton(
-                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"config.CHANNEL_LINK"
-                ),
-            ],
-        ],
-    ),
                 disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
