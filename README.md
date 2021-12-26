@@ -6,16 +6,9 @@ and <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 </p>
 
 <div align="center">
-    <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a> <br /> 
-    <a href="https://deepsource.io/gh/DoellBarr/solidmusic/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br> 
-    <a href="https://www.codacy.com/gh/DoellBarr/solidmusic/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DoellBarr/solidmusic&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/63ed7098eee74e45956a3c4d0512078b"/></a>
-    <a href="https://github.com/doellbarr/solidmusic"><img src="https://www.codefactor.io/repository/github/doellbarr/solidmusic/badge" alt="CodeFactor" /></a> <br />
-    <a href="https://github.com/pyrogram/pyrogram"><img src="https://img.shields.io/badge/Pyrogram-1.2.9-blue?logo=github"></a>
-    <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.9.7-blue?logo=python&logoColor=yellow"></a>
-    <a href="https://github.com/pytgcalls/pytgcalls"><img src="https://img.shields.io/badge/PyTgCalls-0.8.1-blue?logo=github"></a> <br> <br>
-    <a href="https://github.com/DoellBarr/solidmusic"><img src="https://img.shields.io/github/repo-size/doellbarr/solidmusic?logo=github"></a> <br>
-    <a href="https://github.com/DoellBarr/solidmusic"><img src="https://img.shields.io/github/forks/DoellBarr/solidmusic?logo=github"></a>
-    <a href="https://github.com/DoellBarr/solidmusic"><img src="https://img.shields.io/github/stars/DoellBarr/solidmusic?logo=github"></a>
+    <a href="https://github.com/fjgaming212/Bot-Music"><img src="https://img.shields.io/github/repo-size/fjgaming212/Bot-Music?logo=github"></a> <br>
+    <a href="https://github.com/fjgaming212/Bot-Music"><img src="https://img.shields.io/github/forks/fjgaming212/Bot-Music?logo=github"></a>
+    <a href="https://github.com/fjgaming212/Bot-Music"><img src="https://img.shields.io/github/stars/fjgaming212/Bot-Music?logo=github"></a>
 </div>
 
 
@@ -35,7 +28,7 @@ and <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
 <h3>Deploy to Heroku </h3>
 <div>
-    <a href="https://dashboard.heroku.com/new?button-url=https://github.com/DoellBarr/solidmusicTemplate&template=https://github.com/DoellBarr/solidmusicTemplate"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+    <a href="https://dashboard.heroku.com/new?button-url=https://github.com/fjgaming212/Bot-MusicTemplate&template=https://github.com/fjgaming212/Bot-MusicTemplate"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ### Deploy to VPS
