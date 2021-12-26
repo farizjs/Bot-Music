@@ -4,6 +4,7 @@ import datetime
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import Message
 from pytgcalls import StreamType
+from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls.exceptions import NoActiveGroupCall
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 
