@@ -61,9 +61,9 @@ InlineKeyboardMarkup(
                 InlineKeyboardButton(
                     text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"config.CHANNEL_LINK"
                 ),
-            ]
-        ]
-    )
+            ],
+        ],
+    ),
                 disable_web_page_preview=True,
 
             )
@@ -132,9 +132,9 @@ InlineKeyboardMarkup(
                 InlineKeyboardButton(
                     text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"config.CHANNEL_LINK"
                 ),
-            ]
-        ]
-    )
+            ],
+        ],
+    ),
                 disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
