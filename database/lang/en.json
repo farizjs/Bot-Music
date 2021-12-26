@@ -71,7 +71,7 @@
   "success_gcast": "**Success gcasting to {} chats, and error in {} chats",
   "process_gcast": "`Gcasting...`",
   "not_for_you": "This button is not for you!",
-  "pm_greet": "✨ **Hi {}!**\n**I can to stream any media on groups through the new Telegram video chats feature!**\n💡**Find all of my command by clicking on the » Commands « button!",
+  "pm_greet": "✨ **Hi {}!**\n**I can to stream any media on groups through the Telegram video call feature!**\n\n┏━━━━━━━━━━━━━━\n┣• Play music.*\n┣• Download Song.\n┣• Download Videos.\n┣• Search Youtube Link with inline.\n┗━━━━━━━━━━━━━━\n\n💡**Find all of my command by clicking on the » Help « button!",
   "helpmusic": "💡 **To use this bot, first you must make assistant and me to be admin in your group, then how to use this bot, already detailed in » Command « button.",
   "backtomenu": "Back",
   "invalid_command_selection": "**Wrong command selection, accepted selection is (yes|true|on, no|false|off).**",
