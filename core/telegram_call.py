@@ -54,7 +54,6 @@ class TelegramPlayer(Call):
         ),
     )
 
-                disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
             await self.start_call(chat_id)
@@ -112,7 +111,6 @@ class TelegramPlayer(Call):
         ),
     )
 
-                disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
             await self.start_call(chat_id)
