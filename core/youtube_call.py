@@ -3,7 +3,7 @@ from asyncio import sleep
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import CallbackQuery, Message
 from pytgcalls import StreamType
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton
 from pytgcalls.exceptions import NoActiveGroupCall
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 
@@ -52,7 +52,6 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
 """,
-InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
@@ -123,7 +122,6 @@ InlineKeyboardMarkup(
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
 """,
-InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
