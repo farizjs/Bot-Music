@@ -28,7 +28,7 @@ and <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
 <h3>Deploy to Heroku </h3>
 <div>
-    <a href="https://dashboard.heroku.com/new?button-url=https://github.com/fjgaming212/Bot-MusicTemplate&template=https://github.com/fjgaming212/Bot-MusicTemplate"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+    <a href="https://dashboard.heroku.com/new?button-url=https://github.com/fjgaming212/Bot-Music&template=https://github.com/fjgaming212/Bot-Music"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 ### Deploy to VPS
