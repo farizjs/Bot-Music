@@ -10,6 +10,7 @@ from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from functions.youtube_utils import get_audio_direct_link, get_video_direct_link
 from database.lang_utils import get_message as gm
 from .calls import Call
+from configs import config
 
 
 class YoutubePlayer(Call):
@@ -51,7 +52,19 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
 """,
-                disable_web_page_preview=False,
+InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text="✨ ɢʀᴏᴜᴘ", url=f"config.GROUP_LINK"
+                ),
+                InlineKeyboardButton(
+                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"config.CHANNEL_LINK"
+                ),
+            ]
+        ]
+    )
+                disable_web_page_preview=True,
 
             )
         except NoActiveGroupCall:
@@ -110,7 +123,19 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
 """,
-                disable_web_page_preview=False,
+InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(
+                    text="✨ ɢʀᴏᴜᴘ", url=f"config.GROUP_LINK"
+                ),
+                InlineKeyboardButton(
+                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"config.CHANNEL_LINK"
+                ),
+            ]
+        ]
+    )
+                disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
             await self.join_chat(chat_id)
