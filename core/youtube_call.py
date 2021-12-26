@@ -59,7 +59,7 @@ class YoutubePlayer(Call):
                 ],
             ],
         ),
-    )
+    ),
 
             )
         except NoActiveGroupCall:
@@ -126,7 +126,7 @@ class YoutubePlayer(Call):
                 ],
             ],
         ),
-    )
+    ),
             )
         except NoActiveGroupCall:
             await self.join_chat(chat_id)
