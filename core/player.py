@@ -84,7 +84,7 @@ class MediaPlayer(TelegramPlayer, YoutubePlayer):
 
     async def join_channel(self):
         try:
-            await self.user.join_chat("solidprojects")
+            await self.user.join_chat("BotMusicUpdates")
         except UserAlreadyParticipant:
             pass
 
