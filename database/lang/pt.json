@@ -60,6 +60,7 @@
   "channel": "Canal",
   "group_support": "Grupo de Suporte",
   "source_code": "Código Fonte",
+  "switch_inline": "em linha",
   "track_ended": "**Transmissão encerrada pelo {}.**",
   "restart_bot": "`Reiniciando o bot...`",
   "restarted": "`Bot reiniciado, agora você pode usar este bot novamente.`",
