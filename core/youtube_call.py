@@ -52,13 +52,6 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
 """,
-            [
-                [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/BotMusicUpdates"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/BotMusicChat"),
-                ],
-            ]
-        )
                 disable_web_page_preview=True,
 
             )
@@ -118,13 +111,6 @@ class YoutubePlayer(Call):
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
 """,
-            [
-                [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/BotMusicUpdates"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/BotMusicChat"),
-                ],
-            ]
-        )
                 disable_web_page_preview=True,
             )
         except NoActiveGroupCall:
