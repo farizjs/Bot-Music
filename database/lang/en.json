@@ -58,6 +58,7 @@
   "helpbutton": "Help",
   "maintainer": "Maintainer",
   "channel": "Channel",
+  "switch_inline": "Inline",
   "group_support": "Support Group",
   "source_code": "Source Code",
   "track_ended": "**Streaming ended by {}.**",
