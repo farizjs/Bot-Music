@@ -125,6 +125,7 @@
   "help_delsudo": "untuk menghapus sudo dari obrolan",
   "help_update": "untuk memperbarui bot Anda.",
   "help_player": "untuk menonaktifkan atau mengaktifkan bot untuk streaming dalam obrolan",
+  "help_setduration": "Maksimal durasi pemutaran (menit)",
   "player_is_nonactive": "**Obrolan ini telah dinonaktifkan untuk memutar media.**",
   "player_mode_changed": "**Mode pemain dalam obrolan ini diubah menjadi {}**",
   "player_mode_already_set": "**Mode pemutar sudah disetel ke {}**",
