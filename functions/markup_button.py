@@ -42,7 +42,7 @@ def start_markup(chat_id: int, bot_username: str):
             [
                 InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
                 InlineKeyboardButton(
-                    gm(chat_id, "maintainer"), url="https://t.me/farizsj"
+                    gm(chat_id, "switch_inline"), switch_inline_query_current_chat=""
                 ),
             ],
             [
