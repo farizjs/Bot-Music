@@ -47,12 +47,12 @@ class YoutubePlayer(Call):
             return await mess.edit(
                 f"""
 {gm(chat_id, 'now_streaming')}
-📌 {gm(chat_id, 'yt_title')}: [{title}](https://t.me/{bot_username}?start=ytinfo_{yt_id})
+[⁣](https://telegra.ph/file/3e98a28bcebf70e5bca7b.jpg)📌 {gm(chat_id, 'yt_title')}: [{title}]({yt_url})
 ⏱️ {gm(chat_id, 'duration')}: {duration}
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
 """,
-                disable_web_page_preview=True,
+                disable_web_page_preview=False,
 
             )
         except NoActiveGroupCall:
@@ -106,12 +106,12 @@ class YoutubePlayer(Call):
             return await mess.edit(
                 f"""
 {gm(chat_id, 'now_streaming')}
-📌 {gm(chat_id, 'yt_title')}: [{title}](https://t.me/{bot_username}?start=ytinfo_{yt_id})
+[⁣](https://telegra.ph/file/3e98a28bcebf70e5bca7b.jpg)📌 {gm(chat_id, 'yt_title')}: [{title}]({yt_url})
 ⏱️ {gm(chat_id, 'duration')}: {duration}
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
 """,
-                disable_web_page_preview=True,
+                disable_web_page_preview=False,
             )
         except NoActiveGroupCall:
             await self.join_chat(chat_id)
