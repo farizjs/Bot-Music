@@ -40,7 +40,7 @@ def start_markup(chat_id: int, bot_username: str):
                 )
             ],
             [
-                InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
+                InlineKeyboardButton(gm(chat_id, "helpbutton"), url="https://telegra.ph/Daftar-Command-Music-12-01"),
                 InlineKeyboardButton(
                     gm(chat_id, "switch_inline"), switch_inline_query_current_chat=""
                 ),
