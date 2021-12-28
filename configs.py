@@ -17,9 +17,9 @@ class Configs:
     BOT_TOKEN = getenv("BOT_TOKEN", "123:abc")
     OWNER_ID = int(getenv("OWNER_ID", "0123"))
     SESSION = getenv("SESSION", "session")
-    CHANNEL_LINK = getenv("CHANNEL_LINK", "https://t.me/solidprojects")
-    GROUP_LINK = getenv("GROUP_LINK", "https://t.me/solidprojects_chat")
-    UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/DoellBarr/solidmusic")
+    CHANNEL_LINK = getenv("CHANNEL_LINK", "https://t.me/BotMusicUpdates")
+    GROUP_LINK = getenv("GROUP_LINK", "https://t.me/BotMusicChat")
+    UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/fjgaming212/Bot-Music")
     AUTO_LEAVE = int(getenv("AUTO_LEAVE", "1800"))
 
 
