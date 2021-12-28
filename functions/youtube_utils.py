@@ -34,7 +34,6 @@ def get_yt_details(yt_url: str):
             "thumbnail": infos["thumbnail"],
             "duration": infos["duration_string"],
             "channel": f"[{infos['uploader']}]({infos['uploader_url']})",
-            "rating": round(float(infos["average_rating"]), 2),
             "views": infos["view_count"],
             "likes": infos["like_count"],
             "link": yt_url,
