@@ -104,14 +104,15 @@ def extract_info(chat_id: int, result: Dict[int, List]):
     result_str = ""
     res = list(filter(None, result[chat_id]))
     for count, res in enumerate(res[0], start=1):
+        bot_username = (await self.bot.get_me()).username
         title = res["title"]
         duration = res["duration"]
-        more_info = f"https://t.me/{username}?start=ytinfo_{res['yt_id']}"
+        more_info = f"https://t.me/{bot_username}?start=ytinfo_{res['yt_id']}"
         result_str += f"""
 {count}.
 {gm(chat_id, 'yt_title')}: {title[:35] + '...' if len(title) >= 35 and not title.endswith(' ') else res['title']}
 {gm(chat_id, 'duration')}: {duration}
-[{gm(chat_id, 'more_info')}]({more_info})
+__Powerd by Bot Music A.I__ ⚡
 """
     return result_str
 
