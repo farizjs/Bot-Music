@@ -51,6 +51,7 @@ class YoutubePlayer(Call):
 ⏱️ {gm(chat_id, 'duration')}: {duration}
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
+💡 __[{gm(chat_id, 'more_info')}](https://t.me/{bot_username}?start=ytinfo_{yt_id})__
 """,
                 disable_web_page_preview=False,
 
@@ -110,6 +111,7 @@ class YoutubePlayer(Call):
 ⏱️ {gm(chat_id, 'duration')}: {duration}
 ✨ {gm(chat_id, 'req_by')}: {mention}
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_video')}
+💡 __[{gm(chat_id, 'more_info')}](https://t.me/{bot_username}?start=ytinfo_{yt_id})__
 """,
                 disable_web_page_preview=False,
             )
