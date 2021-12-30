@@ -44,8 +44,8 @@ class YoutubePlayer(Call):
                 AudioPiped(audio_url, audio_quality),
                 stream_type=StreamType().local_stream,
             )
-            return await mess.edit(
-                f"""
+                thumb_file = download_yt_thumbnails(thumb_url, user_id)
+                result_text = f"""
 {gm(chat_id, 'now_streaming')}
 [⁣](https://telegra.ph/file/3e98a28bcebf70e5bca7b.jpg)📌 {gm(chat_id, 'yt_title')}: [{title}]({yt_url})
 ⏱️ {gm(chat_id, 'duration')}: {duration}
@@ -53,6 +53,27 @@ class YoutubePlayer(Call):
 🎥 {gm(chat_id, 'stream_type_title')}: {gm(chat_id, 'stream_type_music')}
 💡 __[{gm(chat_id, 'more_info')}](https://t.me/{bot_username}?start=ytinfo_{yt_id})__
 """,
+
+                return await message.reply_photo(
+                    thumb_file,
+                    caption=result_text,
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                            [
+                                InlineKeyboardButton(
+                                    f"🎥 {gm(chat_id, 'watch_on_yt')}",
+                                    url=f"{yt_url}",
+                                )
+                            ],
+                            [
+                                InlineKeyboardButton(
+                                    f"🗑 {gm(chat_id, 'close_btn_name')}",
+                                    callback_data="close",
+                                )
+                            ],
+                        ]
+                    ),
+                )
                 disable_web_page_preview=False,
 
             )
