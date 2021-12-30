@@ -38,7 +38,7 @@ $ sudo su
 # apt-get install curl
 # curl -sL https://deb.nodesource.com/setup_16.x | bash - 
 # apt-get install ffmpeg python3-pip python3-virtualenv nodejs -y 
-# git clone https://github.com/doellbarr/solidmusic && cd solidmusic 
+# git clone https://github.com/fjgaming212/Bot-Music && cd Bot-Music
 # virtualenv venv && . venv/bin/activate 
 # pip3 install --no-cache-dir -r requirements.txt 
 # cp sample.env .env 
